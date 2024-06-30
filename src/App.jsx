@@ -22,7 +22,6 @@ function App() {
             const response = await fetch('https://editsign.onrender.com/upload', {
                 method: 'POST',
                 body: formData,
-                mode: 'no-cors'
             });
 
             if (!response.ok) {
