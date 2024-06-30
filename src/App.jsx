@@ -19,7 +19,7 @@ function App() {
         formData.append('file', file);
 
         try {
-            const response = await fetch('https://sign-formatter-backend.onrender.com/upload', {
+            const response = await fetch('https://sign-formatter-backend.onrender.com/', {
                 method: 'POST',
                 body: formData,
             });
